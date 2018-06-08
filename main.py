@@ -1,6 +1,8 @@
-from bs4 import BeautifulSoup
 from urllib.request import urlopen, urlretrieve
 from time import time, sleep, ctime
+
+from bs4 import BeautifulSoup
+
 from balloontip import balloon_tip
 
 starttime = time()
